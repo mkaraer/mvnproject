@@ -19,8 +19,8 @@ public class DummyTest {
       //  driver.manage().timeouts().implicitlyWait(8, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         driver.findElement(By.xpath("//*[@id=\"tsf\"]/div[2]/div[1]/div[1]/div/div[2]/input")).sendKeys("Metin Karaer",Keys.ENTER);
-        driver.findElement(By.xpath("//*[(text()='Metin Karaer - Mozambique | Professional Profile | LinkedIn')]")).click();
-
+        
+        System.out.println("Mr. Metin");
     }
 
 }
