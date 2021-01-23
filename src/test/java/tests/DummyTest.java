@@ -21,7 +21,7 @@ public class DummyTest {
         driver.findElement(By.xpath("//*[@id=\"tsf\"]/div[2]/div[1]/div[1]/div/div[2]/input")).sendKeys("Metin Karaer",Keys.ENTER);
         
         System.out.println("Mr. Metin");
-         System.out.println("Mr. Metin");
+         System.out.println("Mr. Meti");
     }
 
 }
